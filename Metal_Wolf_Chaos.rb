@@ -6,7 +6,7 @@ Plugin.create(:Metal_Wolf_Chaos) do
           condition:Plugin::Command[:Editable],
           visible:true,
           role: :postbox) do |opt|
-    tweet(Service.primary,"How do you like me now")
+    tweet(Service.primary,"How do you like me Now!!!!")
   end
   
   def tweet(serv,texts)
